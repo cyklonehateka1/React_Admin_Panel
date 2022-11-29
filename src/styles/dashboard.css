@@ -2,5 +2,12 @@
     position: relative;
     left: 15%;
     /* border: 1px solid red; */
-    width: 85%;
+    padding: 20px;
+    width: 84%;
+}
+
+.statsWidgetCont {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
 }
