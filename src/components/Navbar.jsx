@@ -12,6 +12,7 @@ import { GrChapterAdd } from "react-icons/gr";
 import { TfiShoppingCartFull, TfiStatsUp } from "react-icons/tfi";
 import { RiCoupon3Line } from "react-icons/ri";
 import { FiUsers } from "react-icons/fi";
+import { Badge } from "@mui/material";
 
 const Navbar = () => {
   return (
@@ -70,7 +71,11 @@ const Navbar = () => {
               <div>
                 <AiOutlineMessage />
               </div>
-              <Link to="/">Messages</Link>
+              <Link to="/">
+                <Badge color="warning" variant="dot">
+                  Messages
+                </Badge>
+              </Link>
             </li>
           </ul>
         </div>
