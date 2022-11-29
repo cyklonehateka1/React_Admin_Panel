@@ -12,3 +12,9 @@
     justify-content: space-between;
     width: 100%;
 }
+
+.chartsReviewsCont {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
