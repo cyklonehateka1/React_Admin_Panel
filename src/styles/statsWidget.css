@@ -1,7 +1,7 @@
 .statsWidget {
     background: white;
     width: 24%;
-    padding: 15px;
+    padding: 10px;
     border-radius: 5px;
 }
 
@@ -28,7 +28,7 @@
 
 .statsWidgetSubCont>h4 {
     margin-bottom: 8px;
-    color: #06233d;
+    color: #1d96e2;
     font-size: 21px;
 }
 
@@ -52,4 +52,9 @@
 
 .statsWidgetSubCont>.bottom>.left>span {
     color: rgb(54, 253, 54);
+    font-size: 13px;
+}
+
+.statsWidgetSubCont>.bottom>span {
+    font-size: 14px;
 }

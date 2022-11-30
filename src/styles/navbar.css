@@ -38,10 +38,11 @@
     margin: 13px 0;
     list-style: none;
     display: flex;
+    color: #1d96e2
 }
 
 .navMenuCont>ul>li {
-    color: rgb(75, 75, 75);
+    color: #1d96e2
 }
 
 .navMenuCont>ul>li>a {

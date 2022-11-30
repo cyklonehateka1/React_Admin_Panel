@@ -19,12 +19,12 @@ const Charts = () => {
         <div className="diagramCont">
           <LineChart
             width={800}
-            height={300}
+            height={250}
             data={chartData}
             margin={{
               top: 5,
-              right: 30,
-              left: 20,
+              right: 10,
+              left: 10,
               bottom: 5,
             }}
           >

@@ -8,7 +8,7 @@ import {
   AiOutlineLogout,
 } from "react-icons/ai";
 import { BsHandbag } from "react-icons/bs";
-import { GrChapterAdd } from "react-icons/gr";
+import { HiOutlineViewGridAdd } from "react-icons/hi";
 import { TfiShoppingCartFull, TfiStatsUp } from "react-icons/tfi";
 import { RiCoupon3Line } from "react-icons/ri";
 import { FiUsers } from "react-icons/fi";
@@ -38,7 +38,7 @@ const Navbar = () => {
 
             <li>
               <div>
-                <GrChapterAdd />
+                <HiOutlineViewGridAdd />
               </div>
               <Link to="/">Add Product</Link>
             </li>

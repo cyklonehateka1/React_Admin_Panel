@@ -4,6 +4,8 @@ import "../styles/dashboard.css";
 import StatsWidget from "../components/StatsWidget";
 import Charts from "../components/Charts";
 import Reviews from "../components/Reviews";
+import Table from "../components/Table";
+import TopProduct from "../components/TopProduct";
 const Dashboard = () => {
   return (
     <div className="dashboard">
@@ -18,6 +20,10 @@ const Dashboard = () => {
         <div className="chartsReviewsCont">
           <Charts />
           <Reviews />
+        </div>
+        <div className="tableTopProCont">
+          <Table />
+          <TopProduct />
         </div>
       </div>
     </div>
