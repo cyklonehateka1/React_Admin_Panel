@@ -40,14 +40,13 @@ const Navbar = () => {
               <div>
                 <HiOutlineViewGridAdd />
               </div>
-              <Link to="/">Add Product</Link>
+              <Link to="/addproduct">Add Product</Link>
             </li>
-
             <li>
               <div>
                 <TfiShoppingCartFull />
               </div>
-              <Link to="/">Orders</Link>
+              <Link to="/orders">Orders</Link>
             </li>
             <li>
               <div>

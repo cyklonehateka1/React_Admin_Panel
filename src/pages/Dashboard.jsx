@@ -22,7 +22,9 @@ const Dashboard = () => {
           <Reviews />
         </div>
         <div className="tableTopProCont">
-          <Table />
+          <div className="dashboardTable">
+            <Table />
+          </div>
           <TopProduct />
         </div>
       </div>
