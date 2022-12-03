@@ -6,6 +6,8 @@ import Charts from "../components/Charts";
 import Reviews from "../components/Reviews";
 import Table from "../components/Table";
 import TopProduct from "../components/TopProduct";
+import { tableRows } from "../utils/data";
+import { tableColumns } from "../utils/data";
 const Dashboard = () => {
   return (
     <div className="dashboard">
@@ -23,7 +25,8 @@ const Dashboard = () => {
         </div>
         <div className="tableTopProCont">
           <div className="dashboardTable">
-            <Table />
+            <h5>Current Orders</h5>
+            <Table rows={tableRows} columns={tableColumns} pagination={5} />
           </div>
           <TopProduct />
         </div>
