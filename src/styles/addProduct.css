@@ -11,6 +11,11 @@
     width: 100%;
     border-radius: 5px;
     padding: 50px;
+    background-color: white;
+    height: 85%;
+    margin-top: 30px;
+    box-shadow: 1px 1px 5px 1px rgb(173, 173, 173);
+    border-radius: 5px;
 }
 
 .addProductCont>h4 {
@@ -63,18 +68,19 @@
     padding-left: 10px;
     outline: none;
     background-color: inherit;
+    box-shadow: 0.1px 0.1px 5px 0.1px rgb(173, 173, 173);
 }
 
 .addProductCont>form>.details>.reactQuillCont {
     width: 100%;
     margin-top: 30px;
-    height: 300px;
+    height: 180px;
+
 }
 
 .addProductCont>form>.details>.reactQuillCont>.reactQuill {
-    height: 150px;
+    height: 130px;
     width: 100%;
-    border-radius: 5px;
 }
 
 .stockImgCont {

@@ -9,12 +9,15 @@ const Products = () => {
     <div className="products">
       <TopBar />
       <div className="productsCont">
-        <Table
-          rows={orderProductRow}
-          columns={orderProductsCol}
-          pagination={10}
-          pageSize={10}
-        />
+        <h5>Products</h5>
+        <div className="productsTableCont">
+          <Table
+            rows={orderProductRow}
+            columns={orderProductsCol}
+            pagination={10}
+            pageSize={10}
+          />
+        </div>
       </div>
     </div>
   );
