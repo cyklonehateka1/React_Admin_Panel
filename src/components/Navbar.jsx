@@ -52,7 +52,7 @@ const Navbar = () => {
               <div>
                 <RiCoupon3Line />
               </div>
-              <Link to="/">Coupons</Link>
+              <Link to="/coupons">Coupons</Link>
             </li>
             <li>
               <div>

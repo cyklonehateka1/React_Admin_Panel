@@ -5,6 +5,7 @@ import Dashboard from "./pages/Dashboard";
 import AddProduct from "./pages/AddProduct";
 import Orders from "./pages/Orders";
 import Products from "./pages/Products";
+import Coupons from "./pages/Coupons";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/addproduct" element={<AddProduct />} />
           <Route path="/orders" element={<Orders />} />
           <Route path="/products" element={<Products />} />
+          <Route path="/coupons" element={<Coupons />} />
         </Routes>
       </Router>
     </div>
