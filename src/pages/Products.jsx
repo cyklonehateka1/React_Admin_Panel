@@ -1,15 +1,15 @@
 import React from "react";
 import Table from "../components/Table";
 import "../styles/products.css";
-import { ordersPageColumns, ordersPageRows } from "../utils/data";
+import { orderProductsCol, orderProductRow } from "../utils/data";
 
 const Products = () => {
   return (
     <div className="products">
-      <div className="productCont">
+      <div className="productsCont">
         <Table
-          rows={ordersPageRows}
-          columns={ordersPageColumns}
+          rows={orderProductRow}
+          columns={orderProductsCol}
           pagination={10}
           pageSize={10}
         />
