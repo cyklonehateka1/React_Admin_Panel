@@ -7,6 +7,7 @@
     padding: 15px;
     width: 84%;
     height: 100vh;
+    flex-direction: column;
 }
 
 .ordersCont {
