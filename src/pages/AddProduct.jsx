@@ -3,11 +3,13 @@ import ReactQuill from "react-quill";
 import "react-quill/dist/quill.snow.css";
 import "../styles/addProduct.css";
 import { useState } from "react";
+import TopBar from "../components/TopBar";
 
 const AddProduct = () => {
   const [value, setValue] = useState("");
   return (
     <div className="addProduct">
+      <TopBar />
       <div className="addProductCont">
         <h4>Create New Product</h4>
         <form>
