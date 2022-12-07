@@ -6,6 +6,7 @@ import AddProduct from "./pages/AddProduct";
 import Orders from "./pages/Orders";
 import Products from "./pages/Products";
 import Coupons from "./pages/Coupons";
+import Messages from "./pages/Messages";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/orders" element={<Orders />} />
           <Route path="/products" element={<Products />} />
           <Route path="/coupons" element={<Coupons />} />
+          <Route path="/messages" element={<Messages />} />
         </Routes>
       </Router>
     </div>

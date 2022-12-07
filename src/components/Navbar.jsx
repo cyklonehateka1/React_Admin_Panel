@@ -70,7 +70,7 @@ const Navbar = () => {
               <div>
                 <AiOutlineMessage />
               </div>
-              <Link to="/">
+              <Link to="/messages">
                 <Badge color="warning" variant="dot">
                   Messages
                 </Badge>
